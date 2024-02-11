@@ -1,2 +1,2 @@
-require("cnvim.remap")
 require("cnvim.set")
+require("cnvim.remap")
