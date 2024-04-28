@@ -19,4 +19,4 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-clone repo at .config/nvim and run PackerSync
+clone repo at .config/nvim, source packer.lua and run PackerSync
