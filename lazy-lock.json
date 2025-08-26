@@ -1,4 +1,5 @@
 {
+  "alpha-nvim": { "branch": "main", "commit": "2b3cbcdd980cae1e022409289245053f62fb50f6" },
   "harpoon": { "branch": "harpoon2", "commit": "ed1f853847ffd04b2b61c314865665e1dadf22c7" },
   "iron.nvim": { "branch": "master", "commit": "c005b01b779f1b6c038e11248db403bb3df6a7f3" },
   "kanagawa": { "branch": "master", "commit": "debe91547d7fb1eef34ce26a5106f277fbfdd109" },
