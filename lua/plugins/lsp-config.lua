@@ -14,7 +14,13 @@ return {
         },
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "pylsp", "rust_analyzer", "gopls" },
+                ensure_installed = {
+                    "lua_ls",
+                    "vimls",
+                    "pylsp",
+                    "rust_analyzer",
+                    "gopls",
+                },
             })
         end,
     },

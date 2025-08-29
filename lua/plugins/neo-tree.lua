@@ -8,5 +8,9 @@ return {
     },
     config = function()
         vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle left<CR>", {})
+        local neotree = require("neo-tree")
+        neotree.setup({
+            window = {width=30}
+        })
     end,
 }
