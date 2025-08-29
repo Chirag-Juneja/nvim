@@ -1,19 +1,25 @@
-# cnvim
-My neovim configuration
+# nvim
+My neovim configuration (Lua-based)
 
-### Requirements
-Needs neovim version >=10.0
+## Overview 
+A personal, fully Lua-powered Neovim setup. 
+Designed for enhanced productivity and modularity using [lazy.nvim] plugin management.
+
+## Prerequisites
+ **Neovim**
+
+* ripgrep for Telescope grep search support:
 ```
-$ sudo add-apt-repository ppa:neovim-ppa/unstable
-$ sudo apt-get update
-$ sudo apt-get install neovim
+$ sudo apt-get install ripgrep #Debian/Ubuntu
+$ sudo dnf install ripgrep #Fedora
 ```
 
- Telescope grep search requires ripgrep installed.
-```
-$ sudo apt-get install ripgrep
-$ sudo dnf install ripgrep
-```
+## Setup
+Clone this repo into your config folder:
+```git clone https://github.com/Chirag-Juneja/nvim ~/.config/nvim```
 
-### How to setup
-clone repo at .config/nvim
+## License
+Distributed under the MIT License. See LICENSE for details.
+
+Happy coding with Neovim!
+— Chirag Juneja
