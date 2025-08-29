@@ -8,6 +8,7 @@ return {
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.gofumpt,
 				null_ls.builtins.formatting.yamlfmt,
+				null_ls.builtins.formatting.shfmt,
 				null_ls.builtins.diagnostics.erb_lint,
 				null_ls.builtins.diagnostics.rubocop,
 				null_ls.builtins.formatting.rubocop,
