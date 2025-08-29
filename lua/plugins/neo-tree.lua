@@ -6,6 +6,7 @@ return {
         "nvim-tree/nvim-web-devicons",
         "MunifTanjim/nui.nvim",
     },
+    lazy=false,
     config = function()
         vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle left<CR>", {})
         local neotree = require("neo-tree")
